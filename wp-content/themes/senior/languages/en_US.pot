@@ -1,0 +1,1453 @@
+# Copyright (C) 2015 aislin
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Senior 1.1.1 1.1.1\n"
+"Report-Msgid-Bugs-To: http://example.com/issues\n"
+"POT-Creation-Date: 2015-10-05 20:41:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Team Name <team@example.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:21
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: lib/activate-plugins.php:123
+msgid ""
+"If you are not able to complete plugin installation process due to server "
+"issues please install the plugins manually. All required plugins are "
+"located in \"extensions\" folder in your main download from Themeforest."
+msgstr ""
+
+#: lib/activate-plugins.php:124
+msgid ""
+"After you finish installing plugins go back to %s page to complete the "
+"installation."
+msgstr ""
+
+#: lib/activate-plugins.php:124 lib/activation.php:15
+msgid "Theme Activation"
+msgstr ""
+
+#: lib/activate-plugins.php:149
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/activate-plugins.php:150
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/activate-plugins.php:151
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/activate-plugins.php:152
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/activate-plugins.php:153
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:154
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:155
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:156
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:157
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:158
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:159
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:160
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:161
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:162
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/activate-plugins.php:163
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/activate-plugins.php:164
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/activate-plugins.php:165
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr ""
+
+#: lib/activation.php:55
+msgid "Blog"
+msgstr ""
+
+#: lib/activation.php:94
+msgid "%s Theme Activation"
+msgstr ""
+
+#: lib/activation.php:97
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation."
+msgstr ""
+
+#: lib/activation.php:99
+msgid "These videos cover installation and update process."
+msgstr ""
+
+#: lib/activation.php:108
+msgid "Update Instructions"
+msgstr ""
+
+#: lib/activation.php:110
+msgid "If you are updating the theme, please watch the video on the right."
+msgstr ""
+
+#: lib/activation.php:114
+msgid "Installation Steps"
+msgstr ""
+
+#: lib/activation.php:118
+msgid "Install required plugins"
+msgstr ""
+
+#: lib/activation.php:119
+msgid ""
+"First, enable required plugins. If you have not already done so, there "
+"should be a link \"Install Required Plugins\" in the top of the page. "
+"Follow that link and after you finish plugin installation return to this "
+"page to complete the installation process."
+msgstr ""
+
+#: lib/activation.php:123
+msgid "Import demo content"
+msgstr ""
+
+#: lib/activation.php:124
+msgid "Proceed only after all plugins are installed"
+msgstr ""
+
+#: lib/activation.php:126
+msgid "Go to Wordpress Importer"
+msgstr ""
+
+#: lib/activation.php:128
+msgid ""
+"In order to import demo content you need to install and activate Wordpress "
+"Importer plugin"
+msgstr ""
+
+#: lib/activation.php:132
+msgid "Import Theme Options"
+msgstr ""
+
+#: lib/activation.php:134
+msgid "Go to Theme Options Importer"
+msgstr ""
+
+#: lib/activation.php:136
+msgid ""
+"In order to import demo content you need to install and activate Redux "
+"Framework plugin"
+msgstr ""
+
+#: lib/activation.php:140
+msgid "Save Menus"
+msgstr ""
+
+#: lib/activation.php:141
+msgid "Go to Wordpress Menus"
+msgstr ""
+
+#: lib/activation.php:144
+msgid "Import Layer Slider demo sliders"
+msgstr ""
+
+#: lib/activation.php:146
+msgid "Go to Layer Slider Importer"
+msgstr ""
+
+#: lib/activation.php:148
+msgid ""
+"In order to import demo sliders you need to install and activate Layer "
+"Slider plugin"
+msgstr ""
+
+#: lib/activation.php:152
+msgid "Import Icons"
+msgstr ""
+
+#: lib/activation.php:153
+msgid "Go to Ultimate VC Addons Icon Manager"
+msgstr ""
+
+#: lib/activation.php:156
+msgid "Permalink Structure/Front and Blog Page Settings"
+msgstr ""
+
+#: lib/activation.php:165 lib/activation.php:169
+msgid "Home page as static front page"
+msgstr ""
+
+#: lib/activation.php:176
+msgid "Set Home page to be the static front page (recommended)"
+msgstr ""
+
+#: lib/activation.php:181 lib/activation.php:185
+msgid "Blog page as static posts page"
+msgstr ""
+
+#: lib/activation.php:192
+msgid "Set Blog page to be the static posts page (recommended)"
+msgstr ""
+
+#: lib/activation.php:197 lib/activation.php:201
+msgid "Permalink structure"
+msgstr ""
+
+#: lib/activation.php:208
+msgid "Change permalink structure to /&#37;postname&#37;/ (optional)"
+msgstr ""
+
+#: lib/activation.php:317
+msgid ""
+"After you complete demo data import, visit %s page for details on how to "
+"customize the theme."
+msgstr ""
+
+#: lib/activation.php:318
+msgid "Documentation"
+msgstr ""
+
+#: lib/extras.php:19
+msgid "id"
+msgstr ""
+
+#: lib/extras.php:22
+msgid "HTML id attribute."
+msgstr ""
+
+#: lib/extras.php:28
+msgid "Is Container?"
+msgstr ""
+
+#: lib/extras.php:31
+msgid "Yes"
+msgstr ""
+
+#: lib/extras.php:32
+msgid "No"
+msgstr ""
+
+#: lib/extras.php:34
+msgid "If is not a container then if will occupy 100% width."
+msgstr ""
+
+#: lib/extras.php:86
+msgid "Sticky"
+msgstr ""
+
+#: lib/extras.php:94 lib/extras.php:100
+#. Translators: used between list items, there is a space after the comma.
+msgid ", "
+msgstr ""
+
+#: lib/extras.php:108
+msgid "by"
+msgstr ""
+
+#: lib/extras.php:110
+msgid "View all posts by %s"
+msgstr ""
+
+#: lib/extras.php:121
+msgid " Comments"
+msgstr ""
+
+#: lib/extras.php:123
+msgid "1 Comment"
+msgstr ""
+
+#: lib/extras.php:150
+msgid "Permalink to %s"
+msgstr ""
+
+#: lib/init.php:22
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/init.php:25
+msgid "Secondary Navigation"
+msgstr ""
+
+#: lib/init.php:28
+msgid "Top Navigation"
+msgstr ""
+
+#: lib/init.php:31
+msgid "One Page Navigation 1"
+msgstr ""
+
+#: lib/init.php:34
+msgid "One Page Navigation 2"
+msgstr ""
+
+#: lib/init.php:37
+msgid "One Page Navigation 3"
+msgstr ""
+
+#: lib/init.php:77
+msgid "Primary"
+msgstr ""
+
+#: lib/init.php:86 lib/redux/options.php:1881
+msgid "Footer"
+msgstr ""
+
+#: lib/init.php:95
+msgid "Courses"
+msgstr ""
+
+#: lib/metaboxes.php:63
+msgid "Use One Page Menu"
+msgstr ""
+
+#: lib/metaboxes.php:64
+msgid ""
+"When using one page menu functionality you need to add an extra class on "
+"each vc row you want to link to a menu item. Also you need to create a menu "
+"in Appearance/Menus and create custom links where each link url has the "
+"same name as the row class prefixed with # sign"
+msgstr ""
+
+#: lib/metaboxes.php:69
+msgid "Select One Page Menu Location"
+msgstr ""
+
+#: lib/metaboxes.php:70
+msgid "Used only if Use One Page Menu is checked."
+msgstr ""
+
+#: lib/redux/options.php:4
+msgid "General Settings"
+msgstr ""
+
+#: lib/redux/options.php:12
+msgid "Favicon"
+msgstr ""
+
+#: lib/redux/options.php:15
+msgid "Upload favicon (16px x 16px ico format)"
+msgstr ""
+
+#: lib/redux/options.php:20
+msgid "Tracking Code"
+msgstr ""
+
+#: lib/redux/options.php:21
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the head of your theme."
+msgstr ""
+
+#: lib/redux/options.php:29
+msgid "JS Code"
+msgstr ""
+
+#: lib/redux/options.php:30
+msgid "Paste your JS code here."
+msgstr ""
+
+#: lib/redux/options.php:38
+msgid "Custom Thumbnail Sizes"
+msgstr ""
+
+#: lib/redux/options.php:39
+msgid "Pipe separated list of custom thumbnail size names and sizes."
+msgstr ""
+
+#: lib/redux/options.php:40
+msgid ""
+"Please use this format: "
+"<br><strong>custom-thumbnail-size:500x500|another-custom-thumbnail-size:320"
+"x150</strong>. <br>No spaces allowed. Thumnail Sizes you register here will "
+"only be applied to any new image from now on. If you wish to apply them on "
+"any of the old images we recomend using <a "
+"href=\"http://wordpress.org/plugins/regenerate-thumbnails/\">Regenerate "
+"Thumbnails Plugin</a>"
+msgstr ""
+
+#: lib/redux/options.php:101
+msgid "Styling"
+msgstr ""
+
+#: lib/redux/options.php:124
+msgid "Custom CSS Code"
+msgstr ""
+
+#: lib/redux/options.php:125
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: lib/redux/options.php:137
+msgid "Body"
+msgstr ""
+
+#: lib/redux/options.php:144
+msgid "Container Width"
+msgstr ""
+
+#: lib/redux/options.php:157
+msgid "Boxed Outer Container Width"
+msgstr ""
+
+#: lib/redux/options.php:158
+msgid "This is only applicable when \"Boxed\" page template is used."
+msgstr ""
+
+#: lib/redux/options.php:170 lib/redux/options.php:448
+#: lib/redux/options.php:546 lib/redux/options.php:754
+#: lib/redux/options.php:1397 lib/redux/options.php:1656
+#: lib/redux/options.php:1888 lib/redux/options.php:2034
+#: lib/redux/options.php:2161
+msgid "Background"
+msgstr ""
+
+#: lib/redux/options.php:175 lib/redux/options.php:556
+#: lib/redux/options.php:764 lib/redux/options.php:1497
+#: lib/redux/options.php:1897 lib/redux/options.php:2087
+#: lib/redux/options.php:2278 lib/redux/options.php:2412
+msgid "Font"
+msgstr ""
+
+#: lib/redux/options.php:176
+msgid "Specify the body font properties."
+msgstr ""
+
+#: lib/redux/options.php:191 lib/redux/options.php:609
+#: lib/redux/options.php:783 lib/redux/options.php:1941
+#: lib/redux/options.php:2076
+msgid "Link Color"
+msgstr ""
+
+#: lib/redux/options.php:204
+msgid "HR Color"
+msgstr ""
+
+#: lib/redux/options.php:215 lib/redux/options.php:1666
+msgid "Padding"
+msgstr ""
+
+#: lib/redux/options.php:216
+msgid ""
+"This is where you select a padding for all layout elements. For widgets "
+"compiled from a page you need to set the padding on each widget."
+msgstr ""
+
+#: lib/redux/options.php:258
+msgid "Headings"
+msgstr ""
+
+#: lib/redux/options.php:264
+msgid "H1"
+msgstr ""
+
+#: lib/redux/options.php:280
+msgid "H1 Margin"
+msgstr ""
+
+#: lib/redux/options.php:292
+msgid "H2"
+msgstr ""
+
+#: lib/redux/options.php:308
+msgid "H2 Margin"
+msgstr ""
+
+#: lib/redux/options.php:320
+msgid "H3"
+msgstr ""
+
+#: lib/redux/options.php:336
+msgid "H3 Margin"
+msgstr ""
+
+#: lib/redux/options.php:348
+msgid "H4"
+msgstr ""
+
+#: lib/redux/options.php:364
+msgid "H4 Margin"
+msgstr ""
+
+#: lib/redux/options.php:376
+msgid "H5"
+msgstr ""
+
+#: lib/redux/options.php:392
+msgid "H5 Margin"
+msgstr ""
+
+#: lib/redux/options.php:404
+msgid "H6"
+msgstr ""
+
+#: lib/redux/options.php:420
+msgid "H6 Margin"
+msgstr ""
+
+#: lib/redux/options.php:433
+msgid "Header"
+msgstr ""
+
+#: lib/redux/options.php:449
+msgid "Pick a background color for the header"
+msgstr ""
+
+#: lib/redux/options.php:457 lib/redux/options.php:1225
+msgid "Logo"
+msgstr ""
+
+#: lib/redux/options.php:460
+msgid "Upload logo"
+msgstr ""
+
+#: lib/redux/options.php:466
+msgid "Logo Width/ Menu Width"
+msgstr ""
+
+#: lib/redux/options.php:467
+msgid "Drag the slider to change logo/menu width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:468
+msgid ""
+"The grid has 12 steps. Menu will take what is left up to 12. If logo is set "
+"to 12 menu will also take up 12 and will be put bellow it."
+msgstr ""
+
+#: lib/redux/options.php:479
+msgid "Logo Alignment"
+msgstr ""
+
+#: lib/redux/options.php:490 lib/redux/options.php:595
+#: lib/redux/options.php:1930
+msgid "Menu Alignment"
+msgstr ""
+
+#: lib/redux/options.php:501
+msgid "Override Header Padding"
+msgstr ""
+
+#: lib/redux/options.php:513
+msgid "Header Padding"
+msgstr ""
+
+#: lib/redux/options.php:530
+msgid "Top Bar"
+msgstr ""
+
+#: lib/redux/options.php:536 lib/redux/options.php:735
+msgid "Use Top Bar"
+msgstr ""
+
+#: lib/redux/options.php:547 lib/redux/options.php:755
+msgid "Pick a background color for the top bar"
+msgstr ""
+
+#: lib/redux/options.php:557 lib/redux/options.php:2279
+#: lib/redux/options.php:2413
+msgid "Specify font properties."
+msgstr ""
+
+#: lib/redux/options.php:575 lib/redux/options.php:1913
+msgid "Menu Font"
+msgstr ""
+
+#: lib/redux/options.php:576
+msgid "Specify the top bar menu font properties."
+msgstr ""
+
+#: lib/redux/options.php:623 lib/redux/options.php:797
+#: lib/redux/options.php:1952
+msgid "Text Block"
+msgstr ""
+
+#: lib/redux/options.php:636 lib/redux/options.php:810
+#: lib/redux/options.php:1962
+msgid "Text Block Alignment"
+msgstr ""
+
+#: lib/redux/options.php:667
+msgid "Menu Width"
+msgstr ""
+
+#: lib/redux/options.php:668 lib/redux/options.php:1679
+#: lib/redux/options.php:1691
+msgid "Drag the slider to change menu width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:669 lib/redux/options.php:684
+#: lib/redux/options.php:1680 lib/redux/options.php:1692
+#: lib/redux/options.php:2103
+msgid "The grid has 12 steps."
+msgstr ""
+
+#: lib/redux/options.php:682
+msgid "Text Width"
+msgstr ""
+
+#: lib/redux/options.php:683
+msgid "Drag the slider to change text width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:697 lib/redux/options.php:824
+#: lib/redux/options.php:1440
+msgid "Override Top Bar Padding"
+msgstr ""
+
+#: lib/redux/options.php:712 lib/redux/options.php:839
+msgid "Top Bar Padding"
+msgstr ""
+
+#: lib/redux/options.php:729
+msgid "Top Bar Additional"
+msgstr ""
+
+#: lib/redux/options.php:744
+msgid "Show on Mobile Devices"
+msgstr ""
+
+#: lib/redux/options.php:765 lib/redux/options.php:1898
+msgid "Specify the footer font properties."
+msgstr ""
+
+#: lib/redux/options.php:859
+msgid "Main Menu"
+msgstr ""
+
+#: lib/redux/options.php:933
+msgid "Top Level Items Typography"
+msgstr ""
+
+#: lib/redux/options.php:952
+msgid "Subitems Typography"
+msgstr ""
+
+#: lib/redux/options.php:971
+msgid "Menu Item Link Color"
+msgstr ""
+
+#: lib/redux/options.php:983
+msgid "Menu Item Hover Background"
+msgstr ""
+
+#: lib/redux/options.php:984 lib/redux/options.php:991
+msgid "Pick a background color for the menu item on hover."
+msgstr ""
+
+#: lib/redux/options.php:990
+msgid "Current Menu Item Background"
+msgstr ""
+
+#: lib/redux/options.php:996
+msgid "Current Menu Item Link Color"
+msgstr ""
+
+#: lib/redux/options.php:1008
+msgid "Submenu Menu Item Background"
+msgstr ""
+
+#: lib/redux/options.php:1020 lib/redux/options.php:1066
+msgid "Padding Top"
+msgstr ""
+
+#: lib/redux/options.php:1021 lib/redux/options.php:1067
+msgid "Use it to better vertical align the menu"
+msgstr ""
+
+#: lib/redux/options.php:1033
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: lib/redux/options.php:1042
+msgid "Sticky Menu Logo Height"
+msgstr ""
+
+#: lib/redux/options.php:1050
+msgid "Sticky Menu Background"
+msgstr ""
+
+#: lib/redux/options.php:1082
+msgid "Sticky Meny Border"
+msgstr ""
+
+#: lib/redux/options.php:1098
+msgid "Initial Waypoint Scroll Compensation"
+msgstr ""
+
+#: lib/redux/options.php:1099
+msgid "Enter number only."
+msgstr ""
+
+#: lib/redux/options.php:1199
+msgid "Responsive Menu"
+msgstr ""
+
+#: lib/redux/options.php:1206
+msgid "Use Responsive Menu?"
+msgstr ""
+
+#: lib/redux/options.php:1212
+msgid "Display bellow"
+msgstr ""
+
+#: lib/redux/options.php:1213
+msgid "Set the width of the screen in px bellow which the menu is shown."
+msgstr ""
+
+#: lib/redux/options.php:1228
+msgid "Set logo image"
+msgstr ""
+
+#: lib/redux/options.php:1237
+msgid "Logo Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:1247
+msgid "Display Toggle Color"
+msgstr ""
+
+#: lib/redux/options.php:1257
+msgid "Display Toggle Hover Color"
+msgstr ""
+
+#: lib/redux/options.php:1266
+msgid "Display Toggle Image"
+msgstr ""
+
+#: lib/redux/options.php:1269
+msgid "Set the image to replace default 3 lines for menu toggle button."
+msgstr ""
+
+#: lib/redux/options.php:1278
+msgid "Display Toggle Image Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:1288 lib/redux/options.php:1547
+#: lib/redux/options.php:1704
+msgid "Embellishments"
+msgstr ""
+
+#: lib/redux/options.php:1294 lib/redux/options.php:1478
+#: lib/redux/options.php:1553 lib/redux/options.php:1710
+msgid "Enable"
+msgstr ""
+
+#: lib/redux/options.php:1301 lib/redux/options.php:1560
+#: lib/redux/options.php:1717
+msgid "Embellishment Top Background"
+msgstr ""
+
+#: lib/redux/options.php:1310 lib/redux/options.php:1569
+#: lib/redux/options.php:1726
+msgid "Embellishment Top Container Height"
+msgstr ""
+
+#: lib/redux/options.php:1328 lib/redux/options.php:1587
+#: lib/redux/options.php:1744
+msgid "Embellishment Top Container Margin"
+msgstr ""
+
+#: lib/redux/options.php:1329 lib/redux/options.php:1588
+#: lib/redux/options.php:1745
+msgid "Use negative top margin to pull it up."
+msgstr ""
+
+#: lib/redux/options.php:1345 lib/redux/options.php:1604
+#: lib/redux/options.php:1761
+msgid "Embellishment Bottom Background"
+msgstr ""
+
+#: lib/redux/options.php:1354 lib/redux/options.php:1613
+#: lib/redux/options.php:1770
+msgid "Embellishment Bottom Container Height"
+msgstr ""
+
+#: lib/redux/options.php:1372 lib/redux/options.php:1631
+#: lib/redux/options.php:1788
+msgid "Embellishment Bottom Container Margin"
+msgstr ""
+
+#: lib/redux/options.php:1373 lib/redux/options.php:1632
+msgid "Use negative bottom margin to pull it down."
+msgstr ""
+
+#: lib/redux/options.php:1390
+msgid "Page Title"
+msgstr ""
+
+#: lib/redux/options.php:1398
+msgid "Pick a background color for the page title."
+msgstr ""
+
+#: lib/redux/options.php:1406
+msgid "Page Title Font"
+msgstr ""
+
+#: lib/redux/options.php:1407
+msgid "Specify the page title font properties."
+msgstr ""
+
+#: lib/redux/options.php:1427
+msgid "Page Title Margin"
+msgstr ""
+
+#: lib/redux/options.php:1455
+msgid "Page Title Wrapper Padding"
+msgstr ""
+
+#: lib/redux/options.php:1472
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/redux/options.php:1484
+msgid "Position"
+msgstr ""
+
+#: lib/redux/options.php:1518
+msgid "Links Color"
+msgstr ""
+
+#: lib/redux/options.php:1532
+msgid "Alignment"
+msgstr ""
+
+#: lib/redux/options.php:1649
+msgid "Content"
+msgstr ""
+
+#: lib/redux/options.php:1657
+msgid "Pick a background color for the content"
+msgstr ""
+
+#: lib/redux/options.php:1678
+msgid "Content Width"
+msgstr ""
+
+#: lib/redux/options.php:1690
+msgid "Sidebar Width"
+msgstr ""
+
+#: lib/redux/options.php:1789
+msgid "Use negative bottom margin to pull it up."
+msgstr ""
+
+#: lib/redux/options.php:1806
+msgid "Blog/Archive"
+msgstr ""
+
+#: lib/redux/options.php:1812
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: lib/redux/options.php:1813
+msgid "This setting will be applied to any section using post excerpt"
+msgstr ""
+
+#: lib/redux/options.php:1822
+msgid "Blog/Archive Single"
+msgstr ""
+
+#: lib/redux/options.php:1828
+msgid "Is Boxed?"
+msgstr ""
+
+#: lib/redux/options.php:1836
+msgid "Sidebar on the Left?"
+msgstr ""
+
+#: lib/redux/options.php:1844
+msgid "Use Share This buttons?"
+msgstr ""
+
+#: lib/redux/options.php:1856
+msgid "Search Page"
+msgstr ""
+
+#: lib/redux/options.php:1862
+msgid "Use Sidebar?"
+msgstr ""
+
+#: lib/redux/options.php:1870
+msgid "Items Per Page"
+msgstr ""
+
+#: lib/redux/options.php:1889
+msgid "Pick a background color for the footer."
+msgstr ""
+
+#: lib/redux/options.php:1914
+msgid "Specify the footer menu font properties."
+msgstr ""
+
+#: lib/redux/options.php:1986
+msgid "Menu Width/ Text Width"
+msgstr ""
+
+#: lib/redux/options.php:1987
+msgid "Drag the slider to change menu/text width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:1988
+msgid "The grid has 12 steps. The other will take what is left to 12."
+msgstr ""
+
+#: lib/redux/options.php:1998
+msgid "Override Footer Bottom Padding"
+msgstr ""
+
+#: lib/redux/options.php:2010
+msgid "Footer Bottom Padding"
+msgstr ""
+
+#: lib/redux/options.php:2027
+msgid "Footer Widgets"
+msgstr ""
+
+#: lib/redux/options.php:2042
+msgid "Title Font"
+msgstr ""
+
+#: lib/redux/options.php:2043
+msgid "Specify the widget title font properties."
+msgstr ""
+
+#: lib/redux/options.php:2056
+msgid "Subtitle Font"
+msgstr ""
+
+#: lib/redux/options.php:2057
+msgid "Specify the widget link font properties."
+msgstr ""
+
+#: lib/redux/options.php:2088
+msgid "Specify the widget font properties."
+msgstr ""
+
+#: lib/redux/options.php:2101
+msgid "Footer Widget Width"
+msgstr ""
+
+#: lib/redux/options.php:2102
+msgid "Drag the slider to change widget width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:2114
+msgid "Min Height"
+msgstr ""
+
+#: lib/redux/options.php:2126
+msgid "Override Footer Widget Padding"
+msgstr ""
+
+#: lib/redux/options.php:2138
+msgid "Footer Widget Padding"
+msgstr ""
+
+#: lib/redux/options.php:2156
+msgid "Forms"
+msgstr ""
+
+#: lib/redux/options.php:2162
+msgid "(input, textarea)"
+msgstr ""
+
+#: lib/redux/options.php:2175
+msgid "Element Width"
+msgstr ""
+
+#: lib/redux/options.php:2176
+msgid "(text, password, email, search)"
+msgstr ""
+
+#: lib/redux/options.php:2190
+msgid "Textarea Width"
+msgstr ""
+
+#: lib/redux/options.php:2204
+msgid "Element Height"
+msgstr ""
+
+#: lib/redux/options.php:2205
+msgid "(text, password, email, search, select)"
+msgstr ""
+
+#: lib/redux/options.php:2218 lib/redux/options.php:2330
+#: lib/redux/options.php:2454 lib/redux/options.php:2715
+msgid "Border"
+msgstr ""
+
+#: lib/redux/options.php:2253
+msgid "Buttons"
+msgstr ""
+
+#: lib/redux/options.php:2260 lib/redux/options.php:2394
+msgid "Background Color"
+msgstr ""
+
+#: lib/redux/options.php:2269 lib/redux/options.php:2403
+msgid "Background Hover Color"
+msgstr ""
+
+#: lib/redux/options.php:2299 lib/redux/options.php:2424
+msgid "Text Hover Color"
+msgstr ""
+
+#: lib/redux/options.php:2309 lib/redux/options.php:2434
+msgid "Border Radius"
+msgstr ""
+
+#: lib/redux/options.php:2321 lib/redux/options.php:2446
+msgid "Use Border"
+msgstr ""
+
+#: lib/redux/options.php:2348 lib/redux/options.php:2472
+msgid "Border Hover"
+msgstr ""
+
+#: lib/redux/options.php:2370 lib/redux/options.php:2494
+msgid "Button Padding"
+msgstr ""
+
+#: lib/redux/options.php:2388
+msgid "Alternative Button"
+msgstr ""
+
+#: lib/redux/options.php:2508
+msgid "Misc"
+msgstr ""
+
+#: lib/redux/options.php:2513 lib/redux/options.php:2548
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: lib/redux/options.php:2519
+msgid "Use Scroll to Top Button?"
+msgstr ""
+
+#: lib/redux/options.php:2527
+msgid "Scroll to Top Text"
+msgstr ""
+
+#: lib/redux/options.php:2536
+msgid "Override Scroll to Top Button?"
+msgstr ""
+
+#: lib/redux/options.php:2560
+msgid "Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:2574
+msgid "Text Direction"
+msgstr ""
+
+#: lib/redux/options.php:2580
+msgid "Enable RTL?"
+msgstr ""
+
+#: lib/redux/options.php:2590
+msgid "Visual Composer"
+msgstr ""
+
+#: lib/redux/options.php:2599
+msgid "Row Margin"
+msgstr ""
+
+#: lib/redux/options.php:2600
+msgid "Visual Composer row margin."
+msgstr ""
+
+#: lib/redux/options.php:2616
+msgid "Column Padding"
+msgstr ""
+
+#: lib/redux/options.php:2617
+msgid "Visual Composer column padding."
+msgstr ""
+
+#: lib/redux/options.php:2629
+msgid "Accordion Title Color"
+msgstr ""
+
+#: lib/redux/options.php:2643
+msgid "Tabs Title Color"
+msgstr ""
+
+#: lib/redux/options.php:2657
+msgid "Tabs Active Title Color"
+msgstr ""
+
+#: lib/redux/options.php:2674
+msgid "Events"
+msgstr ""
+
+#: lib/redux/options.php:2679
+msgid "Title Color"
+msgstr ""
+
+#: lib/redux/options.php:2698
+msgid "Calendar Head Bg Color"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:80
+msgid ""
+"It looks like your upload folder isn't writable, so PHP couldn't make any "
+"changes (CHMOD)."
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:80
+msgid "Cannot write to file"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:117
+msgid "Warrning"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:118
+msgid "You don't have permission to write directly to uploads folder."
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:119
+msgid ""
+"This theme writes most of the CSS settings into a file to make the site "
+"load faster. You need to ..."
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:136
+msgid "Import / Export"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:137
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:176
+msgid "Theme Information 1"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:177 lib/redux/redux-theme-options.php:183
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:182
+msgid "Theme Information 2"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:187
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: lib/redux/redux-theme-options.php:207 lib/redux/redux-theme-options.php:208
+msgid "Theme Options"
+msgstr ""
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr ""
+
+#: lib/titles.php:19
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: lib/titles.php:21
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: lib/titles.php:23
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: lib/titles.php:26
+msgid "Author: %s"
+msgstr ""
+
+#: lib/titles.php:31
+msgid "Search Results for %s"
+msgstr ""
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr ""
+
+#: page-blog-two-columns.php:44 templates/content.php:13
+msgid "read more"
+msgstr ""
+
+#: templates/author-bio.php:14
+msgid "About %s"
+msgstr ""
+
+#: templates/author-bio.php:18
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/comment.php:9
+msgid "%1$s"
+msgstr ""
+
+#: templates/comment.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: templates/comment.php:19
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/comments.php:8
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr ""
+
+#: templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: templates/comments.php:29 templates/comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: templates/comments.php:45
+msgid "Join the conversation"
+msgstr ""
+
+#: templates/comments.php:45
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/comments.php:49
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: templates/comments.php:54
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: templates/comments.php:56
+msgid "Log out of this account"
+msgstr ""
+
+#: templates/comments.php:56
+msgid "Log out &raquo;"
+msgstr ""
+
+#: templates/comments.php:60
+msgid "Name"
+msgstr ""
+
+#: templates/comments.php:62 templates/comments.php:72
+msgid " (required)"
+msgstr ""
+
+#: templates/comments.php:70
+msgid "Email (will not be published)"
+msgstr ""
+
+#: templates/comments.php:80
+msgid "Website"
+msgstr ""
+
+#: templates/comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: templates/comments.php:90
+msgid "Submit Comment"
+msgstr ""
+
+#: templates/content-none.php:8 templates/search-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/content-none.php:11
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: templates/content-single.php:12
+msgid "Pages:"
+msgstr ""
+
+#: templates/search-none.php:12
+msgid "Apologies, but no results were found."
+msgstr ""
+
+#: templates/searchform.php:2 templates/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: templates/searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: tribe-events/single-event.php:23
+msgid "&laquo; All Events"
+msgstr ""
+
+#: tribe-events/single-event.php:45 tribe-events/single-event.php:90
+msgid "Event Navigation"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Senior 1.1.1"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://showcase.aislinthemes.com/senior/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Senior is easy-to-use WordPress theme that allows you to tell your story, "
+"making it perfect for elderly care, senior living, assisted living, nursing "
+"home or health care websites. Packed with everything you need to launch "
+"your site by this weekend! Events Galleries or Floor Plans are just a few "
+"clicks away - all within a single integrated interface! It is very easy to "
+"setup and use, with one click demo content import. Available only on "
+"ThemeForest! If you like this theme, please don’t forget to rate it."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "aislin"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/Aislin/portfolio"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog - Two Columns"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width No Contaner"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sidebar - Left"
+msgstr ""
+
+#: lib/extras.php:145
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""

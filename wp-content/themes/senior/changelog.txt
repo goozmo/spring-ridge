@@ -1,0 +1,17 @@
+/* 2015-06-25 v1.1.1 */
+- prettyPhoto XSS fix
+- updated required plugins: 
+	Senior Plugin 1.1,
+	Visual Composer 4.5.3, 
+	Ultimate Addons for Visual Composer 3.12, 
+
+/* 2015-05-09 v1.1 */
+- WP security updates
+- updated required plugins: 
+	Senior Plugin 1.1,
+	Visual Composer 4.5.1, 
+	Ultimate Addons for Visual Composer 3.10, 
+	LayerSlider 5.4
+
+/* 2015-03-03 v1.0 */
+- Initial release

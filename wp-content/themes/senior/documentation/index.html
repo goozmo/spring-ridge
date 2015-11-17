@@ -1,0 +1,406 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Senior Documentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        p, table, hr, .box { margin-bottom:25px; }
+        .box p { margin-bottom:10px; }
+        img { border: 1px solid lightgray; }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <h3 class="center alt">&ldquo;Senior Responsive Wordpress Theme&rdquo; Documentation by &ldquo;Aislin&rdquo; v1.0</h3>
+
+        <hr>
+
+        <h1 class="center">&ldquo;Senior Responsive Wordpress Theme&rdquo;</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top">
+                    <strong>
+                        Created: February 15, 2015<br>
+                        By: <a href="http://themeforest.net/user/Aislin">Aislin</a><br>
+                        Email: <a href="mailto:aislin.themes@gmail.com">aislin.themes@gmail.com</a>
+                    </strong>
+                </p>
+            </div><!-- end div .span-6 -->
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/Aislin">here</a>. Thanks so much!</p>
+            </div>
+        </div><!-- end div .borderTop -->
+
+        <hr>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#basic-installation">Basic Installation</a></li>
+            <li><a href="#theme-update">Theme Update</a></li>
+            <li><a href="#plugin-activation">Installing and Activating Plugins</a></li>
+            <li><a href="#migration">Migration From a Theme</a></li>
+            <li><a href="#demo">Importing The Demo Data</a></li>
+            <li><a href="#reading-settings">Reading Settings</a></li>
+            <li><a href="#permalink-structure">Permalink Structure</a></li>
+            <li><a href="#menus">Menus</a></li>
+            <li><a href="#templates">Page Templates</a></li>
+            <li><a href="#fullwidth-no-wrap-template">Fullwidth No Container Template</a></li>
+            <li><a href="#setting-up-blog-page">Setting Up Blog Page</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#form-builder">Building forms</a></li>
+            <li><a href="#layer-slider">Layer Slider Plugin</a></li>
+            <li><a href="#visual-composer">Visual Composer Plugin</a></li>
+            <li><a href="#ultimate-addons">Ultimate Addons for Visual Composer Plugin</a></li>
+            <li><a href="#sidebars">Sidebars</a></li>
+            <li><a href="#theme-options">Theme Options</a></li>
+            <li><a href="#shortcodes">Shortcodes</a></li>
+            <li><a href="#post-thumbnails">Post-thumbnails</a></li>
+            <li><a href="#translate">How to Translate</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#sources-and-credits">Sources and Credits</a></li>
+
+        </ol>
+        
+        <hr>
+
+
+        <!--section ======================================================================== -->
+        <h3 id="basic-installation"><strong>Basic Installation</strong> - <a href="#toc">top</a></h3>
+
+        <p>To install this theme you must have a working version of WordPress already installed. For information in regard to installing the WordPress platform, please see the WordPress Codex - <a href="http://codex.wordpress.org/Installing_WordPress">http://codex.wordpress.org/Installing_WordPress</a></p>
+
+        <p>Extract the zipped package downloaded from ThemeForest to your desktop, in the extracted package you will find senior.zip file which is the wordpress theme.</p>
+
+        <p>You can install the theme in two ways:</p>
+
+        <ul>
+            <li>
+                <p><strong>FTP:</strong> Extract senior.zip file and upload the extracted folder to <strong>/wp-content/themes/</strong> folder on your server.</p>
+            </li>
+            <li>
+                <p><strong>WordPress:</strong> Navigate to <strong>Appearance -> Add New Themes -> Upload</strong> page. Select senior.zip file. Press the <strong>Install Now</strong> button to upload and install the theme.</p>
+            </li>
+        </ul>
+
+        <p>After uploading the theme, you have to activate it. Navigate to <strong>Appearence -> Themes</strong> page to activate the theme.</p>
+
+        <hr />
+
+        <!--section ======================================================================== -->
+        <h3 id="theme-update"><strong>Theme Update</strong> - <a href="#toc">top</a></h3>
+
+        <h4><strong>Step 1</strong></h4>
+        <p>
+            It’s recommended that you make a backup of the theme prior to updating. <a target="_blank" href="https://codex.wordpress.org/WordPress_Backups">Read this</a>
+        </p>
+        <h4><strong>Step 2</strong></h4>
+        <p>
+            If you want to avoid having your site temporarily unstyled during the theme update you can install
+            "Coming Soon" plugin. You can use somthing like this:
+            <a target="_blank" href="https://wordpress.org/plugins/easy-coming-soon/screenshots/">plugin 1</a>
+            <a target="_blank" href="http://wordpress.org/plugins/underconstruction/screenshots/">plugin 2</a>
+        </p>
+        <h4><strong>Step 3</strong></h4>
+        <p>
+            <strong>Note:</strong> If you have activated the child theme leave it as is. You only want to delete/update the theme.
+        </p>
+        <p>
+            From your WordPress dashboard, navigate to Themes. Activate a different theme, choose delete files for your theme, then upload the new theme and activate.
+        </p>
+        <p>
+            The same goes for following plugins: Bricklayer - Content Builder, Senior Plugin, LayerSLider.
+            You can freely <strong>deactivate</strong> them, <strong>delete</strong> them and <strong>reinstall</strong> them again with the theme, just like you would on the first theme install.
+        </p>
+        <h4><strong>Additional Steps</strong></h4>
+        <p>
+            If your server is slow and you are not able to complete the installation process please use FTP and replace the theme and the plugins
+            directly.
+        </p>
+        <hr />
+        <p>
+            It seems scary but you really won’t loose any of your data. The only exception is if you have made edits to theme files like header.php, footer.php etc.
+            These changes will need to be made again to the new files. But all of your content and theme settings are preserved.
+        </p>
+
+        <hr />
+        <!--section ======================================================================== -->
+        <h3 id="plugin-activation"><strong>Installing and Activating Plugins</strong> - <a href="#toc">top</a></h3>
+
+        <p>
+            After theme installation you need to install and activate plugins this theme requires to work properly.
+            You will see a list of required and recommended plugins. First you need to install them and than make sure you
+            <strong>activate them</strong>.
+        </p>
+        <hr />
+        <!--section ======================================================================== -->
+        <h3 id="migration"><strong>Migration from a theme</strong> - <a href="#toc">top</a></h3>
+
+        <p>If you are migrating from a theme which used the native featured images functionality of WordPress, please use <a href='http://wordpress.org/extend/plugins/regenerate-thumbnails/'>Regenerate Thumbnails</a> plugin to resize all the thumbnails.</p>
+        <hr />
+
+        <!--section ======================================================================== -->
+        <h3 id="demo"><strong>Importing The Demo Data</strong> - <a href="#toc">top</a></h3>
+        <p>We have included the exported XML file from our demo. (Please note that images from our demo site are not included.)</p>
+        <p><strong>1.</strong>The XML file is included within the download package which will be used to import the content.</p>
+        <p><strong>2.</strong> Navigate to WP Admin -&gt; Tools -&gt; Import.</p>
+        <p><strong>3.</strong> Select and install WordPress importer.</p>
+        <p><strong>4.</strong> Select the XML file and upload it. In a few minutes it will install and upload all content.</p>
+        <p><strong>5.</strong> Now navigate to WP Admin -&gt; Appearance -&gt; Menus page and select the newly created menu and assign it to &quot;Main Navigation&quot; location.</p>
+        <p><strong>6.</strong> Next, navigate to WP Admin -&gt; Settings -&gt; Reading Settings and set a front page.</p>
+        <hr />
+
+        <!--section ======================================================================== -->
+        <h3 id="reading-settings"><strong>Reading Settings</strong> - <a href="#toc">top</a></h3>
+
+        <p>To setup one of these pages as Homepage, navigate to WP Admin -> Settings -> Reading Settings and set the newly created page as front page.</p>
+
+        <p><img src="assets/images/reading-settings.png" alt="" /></p>
+        <p>Posts page must be left blank.</p>
+
+        <hr />
+
+        <!--section ======================================================================== -->
+        <h3 id="permalink-structure"><strong>Permalink Structure</strong> - <a href="#toc">top</a></h3>
+
+        <p>
+            Don't forget to set your permalink structure to have pretty links. This is important also for Breadcrumbs
+            to be able to print full paths.
+            So go to Admin/Settings/Permalinks and select something, recommended are "Day and name" and "Month and name".
+            Click "Save Changes".
+        </p>
+
+        <hr />
+
+
+
+        <!--section ======================================================================== -->
+        <h3 id="menus"><strong>Menus</strong> - <a href="#toc">top</a></h3>
+
+        <p>This theme supports custom WordPress menu with two level dropdown support.</p>
+
+        <p>To setup the menus, navigate to <strong>Apperance -> Menus</strong> page. 
+            Enter a name for your menu and add links to the menu by using the options given on the left sidebar. 
+            You can manage your menus using the drag and drop functionality. 
+            After setting up your menu, click on Manage Locations tab and assign your menu to a location on you site
+            and hit the "Save" button.
+            This theme has 2 menu locations Primary Menu and Secondary Menu, First is in the header and the 
+            second is in the footer.
+        </p>
+
+        <p><img src="assets/images/menus.png" alt="" width="790" /></p>
+        <p><img src="assets/images/menus-manage-locations.png" alt="" width="790" /></p>
+
+        <hr />
+
+        <!--section ======================================================================== -->
+        <h3 id="templates"><strong>Page Templates</strong> - <a href="#toc">top</a></h3>
+
+        <p>
+            This theme theme comes with 5 page templates.
+        <ol>
+            <li>Default</li>
+            <li>Fullwidth</li>
+            <li>Fullwidth No Container</li>
+            <li>Home</li>
+            <li>Home Boxed</li>
+            <li>Boxed</li>
+            <li>Sidebar Right</li>
+        </ol>
+    </p>
+    <hr />
+
+
+    <!--section ======================================================================== -->
+    <h3 id="fullwidth-no-wrap-template"><strong>Fullwidth No Container Template</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        With this layout you can have side to side fullwidth rows.
+    </p>
+
+
+
+    <!--section ======================================================================== -->
+    <h3 id="setting-up-blog-page"><strong>Setting Up Blog Page</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Make sure to designate a page in Admin/Settings/Reading as static Blog page.
+    </p>
+
+    <hr />
+
+
+    <!--section ======================================================================== -->
+    <h3 id="events"><strong>Events</strong> - <a href="#toc">top</a></h3>
+    <p>
+        We recommend that you install The Events Calendar plugin for managing events. You will be prompted by the theme to do so.
+    </p>
+    
+    <hr />
+
+
+    <!--section ======================================================================== -->
+    <h3 id="form-builder"><strong>Building Forms</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        We recommend that you install Contact Form 7 plugin for managing events. You will be prompted by the theme to do so.
+    </p>
+
+    <hr />
+
+
+
+    <!--section ======================================================================== -->
+    <h3 id="layer-slider"><strong>Layer Slider</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Senior WP Theme comes also with Layer Slider Plugin. Please read the documentation on this plugin. It is located in help folder within your main zip download.
+        Demo sliders can be found in assets/layer-slider/demo/sliders folder. What you need to do is import these using Layer Slider import functionality.
+        Please note that for the text in our demo sliders we used our custom css-classes. These classes are listed in Theme Options 
+        and can be customized there. In Layer Slider these custom classes are under each slide layer - Attributes tab.
+    </p>
+    <p>
+        Also, we have included custom Senior skin for layer slider. This skin lets you have a slider
+        with customized bullets that you can see on our demo site for page Home 2. It is located
+        in assets/layer-slider/skins.
+    </p>
+
+    <!--section ======================================================================== -->
+    <h3 id="visual-composer"><strong>Visual Composer</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Senior WP Theme comes with Visual Composer Plugin. Please read the documentation on this plugin. It is located in help folder within your main zip download.        
+    </p>
+
+    <!--section ======================================================================== -->
+    <h3 id="ultimate-addons"><strong>Ultimate Addons for Visual Composer</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Senior WP Theme comes with Ultimate Addons for Visual Composer Plugin. Please read the documentation on this plugin. It is located in help folder within your main zip download.        
+    </p>
+
+
+    <h3 id="sidebars"><strong>Sidebars</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Senior Theme comes with 2 sidebar areas:
+    <ul>
+        <li>Regular</li>
+        <li>Footer Top</li>
+    </ul>
+</p>
+
+
+<!--section ======================================================================== -->
+<h3 id="theme-options"><strong>Theme Options</strong> - <a href="#toc">top</a></h3>
+
+<p>The theme comes with a simple to use administration panel. You can access it by navigating to <strong>Admin/Theme Options</strong>. The theme options are conveniently spread over a number of tabs and each tab contains the options that pertain to a particular area of the theme.</p>
+
+<p><img src="assets/images/theme-options.png" alt="" width="790" /></p>
+<ol>
+    <li>General Settings</li>
+    <li>Styling</li>
+    <li>Body</li>
+    <ul>
+        <li>Headings</li>
+    </ul>
+    <li>Header</li>
+    <ul>
+        <li>Top Bar</li>
+        <li>Top Bar Additional</li>
+        <li>Main Menu</li>
+        <li>Responsive Menu</li>
+    </ul>
+    <li>Page Title</li>
+    <ul>
+        <li>Breadcrumbs</li>
+    </ul>
+    <li>Content</li>
+    <li>Blog/Archive</li>
+    <ul>
+        <li>Blog/Archive Single</li>
+    </ul>
+    <li>Search Page</li>
+    <li>Footer</li>
+    <ul>
+        <li>Footer Widgets</li>
+    </ul>
+    <li>Forms</li>
+    <li>Buttons</li>
+    <li>Misc</li>
+    <li>Visual Composer</li>
+    <li>Events</li>
+    <li>Import/Export</li>
+</ol>
+
+
+
+<h3 id="shortcodes"><strong>Shortcodes</strong> - <a href="#toc">top</a></h3>
+
+<p>The shortcodes are available under the usual formatting options on the post / page text editor. 
+    Make sure you are on the &quot;visual editor&quot; tab, 
+    the shortcode dropdown are on the third row. 
+</p>
+<hr />
+
+<h3 id="thumbnails"><strong>Post Thumbnails</strong> - <a href="#toc">top</a></h3>
+
+<p>This theme  uses the WordPress Post Thumbnails function, this way you can upload one image and WordPress will automatically resize it to all the different thumbnail sizes.</p>
+
+<p>To set a post thumbnail for your post, go to Posts > Add New > Set Featured Image > the normal upload box will now appear, upload your image and click "Use as featured image".</p>
+
+<hr />
+
+
+<!--section ======================================================================== -->
+<h3 id="translate"><strong>How to Translate</strong> - <a href="#toc">top</a></h3>
+
+<p>The translation file is located in languages folder (/wp-content/themes/senior/languages). Edit the .po file using <a href="http://www.poedit.net/">POEdit</a>, use the translation field to make replacements.</p>
+
+<p>From the file menu, save file with your language name e.g de_DE.po. It will generate both a .po and .mo file for your translation.</p>
+
+<p>Next edit wp-config.php located in the root folder of wordpress and define the WPLANG prefix with your language name which should be similar to the translation file name.</p>
+
+<hr />
+
+<h3 id='css'><strong>CSS</strong> - <a href='#toc'>top</a></h3>
+<p>The CSS files are listed below and we have included a &quot;custom CSS&quot; field in the theme options for users to insert their own custom CSS. Please be sure to put any custom CSS in that field and not in the style.css file. Anything in the custom CSS field will override the style.css file.</p>
+
+<ul>
+    <li>
+        <strong>style.css</strong> - Default CSS
+    </li>
+</ul>
+
+<hr />
+
+<h3 id="sources-and-credits"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+<p>We've used the following images, icons or other files as listed.</p>
+
+<ul>
+    <li>jQuery - <a target="_blank" href="http://jquery.com/">http://jquery.com/</a></li>
+    <li>Font Awesome - <a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">http://fortawesome.github.io/Font-Awesome/</a></li>
+    <li>Iconsmind - <a target="_blank" href="https://www.iconsmind.com/icons/">https://www.iconsmind.com/icons/</a></li>
+    <li>Layer Slider - <a target="_blank" href="http://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin-/1362246">http://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin-/1362246</a></li>
+    <li>Visual Composer - <a target="_blank" href="http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431">http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431</a></li>
+    <li>Ultimate Addons for Visual Composer - <a target="_blank" href="http://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199">http://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199</a></li>
+</ul>
+
+<hr />
+
+<p>Once again, thank you so much for purchasing this theme. As we said in the beginning, we will be happy to help you if you have any questions relating to this theme. We take pride in our work and care about our users. Thanks again!</p>
+
+<p class="append-bottom alt large"><strong>Aislin</strong></p>
+<p><a href="#toc">Go To Table of Contents</a></p>
+</div><!-- end div .container -->                   
+</body>
+</html>

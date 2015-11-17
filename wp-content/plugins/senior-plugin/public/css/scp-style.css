@@ -1,0 +1,25 @@
+.scp-shortcode h1,
+.scp-shortcode h2,
+.scp-shortcode h3,
+.scp-shortcode h4,
+.scp-shortcode h5,
+.scp-shortcode h6 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 14px;
+}
+.scp-shortcode p { margin: 0; }
+.scp-icon-bullet-text-icon,
+.scp-icon-bullet-text-text {
+    float: left;
+}
+
+.scp-icon-bullet-text-text {
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .scp-icon-bullet-text { width: 100%; margin-bottom: 18px;}
+    /*.scp-shortcode-separator { height: 1px !important; visibility: hidden; }*/
+}

@@ -1,0 +1,38 @@
+.dntp-pricing-plan {
+    text-align: center;
+    border: 1px solid;
+    padding: 58px;
+    margin-right: -16px;
+    margin-left: -15px;
+}
+
+.dntp-pricing-plan .sub-price {
+    position: relative;
+    margin: 15px;
+}
+
+.dntp-pricing-plan .sub-price:before, .dntp-pricing-plan .sub-price:after {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+
+    border-width: 0;
+
+    width: 20px;
+    border-style: solid;
+    border-color: #000;
+    border-bottom-width: 1px;
+}
+
+.dntp-pricing-plan .sub-price:before {
+    right: 0;
+}
+.dntp-pricing-plan .sub-price:after {
+    left: 0;
+}
+
+.dntp-pricing-plan .button {
+    border: 2px solid;
+    padding: 5px 10px;
+}
+
