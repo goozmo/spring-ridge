@@ -14,3 +14,26 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+
+/* color of links in accordian */
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+	color:#567d60 !important;
+}
+
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+	color:#000000 !important;
+}
+/* end color of links in accordian */
+
+
+/* pages menu in footer */
+body > div.cbp-row.wh-footer > div.cbp-container > div.widget.text-4.widget_text.one.third.wh-padding > div > p {
+	text-align: left; margin-left: 8.4em;
+}
+
+body > div.cbp-row.wh-footer > div.cbp-container > div.widget.text-2.widget_text.one.third.wh-padding > div > p {
+	text-align: left; 
+}
+
+
