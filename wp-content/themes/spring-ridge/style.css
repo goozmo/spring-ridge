@@ -16,6 +16,14 @@
 -------------------------------------------------------------- */
 
 
+/* body */
+body {
+    color:#999999 !important;
+font-size:14px; */
+}
+/* end body */
+
+
 /* color of links in accordian */
 .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
 	color:#567d60 !important;
@@ -35,5 +43,71 @@ body > div.cbp-row.wh-footer > div.cbp-container > div.widget.text-4.widget_text
 body > div.cbp-row.wh-footer > div.cbp-container > div.widget.text-2.widget_text.one.third.wh-padding > div > p {
 	text-align: left; 
 }
+/* pages menu in footer */
+
+
+
+/* text in contact box */ 
+.contact-action	{
+	font-size:18px;
+}
+/* end text in contact box */ 
+
+/* Testimonials */
+div.text.testimonial_rotator_description > h2{
+	padding-bottom:.5em !important;
+}
+/* Testimonials */
+
+/* Main page titles */
+div.wpb_text_column.wpb_content_element.page-heading > div > h2{
+		font-size:2.5em;
+		margin-bottom: .4em;
+}
+
+
+/* main body text */
+.body-copy {
+	color: white;
+	font-family:Montserrat;
+	line-height:22px;
+	font-weight:100;
+	font-style:normal;
+	font-size:16px;
+}
+
+.body-copy h3 {
+	color: white;
+	font-family:Montserrat;
+	font-weight:100;
+	font-size:21px;
+	margin-bottom: -1em !important;
+}
+
+.body-copy h3 a{
+	color: #ffffff;
+	font-family:Montserrat;
+	font-weight:100;
+	font-size:21px;
+	margin-bottom: -1em !important;
+}
+/* end main body text */
+
+
+/* Notice of privacy */
+.body-copy a:hover{
+	color: #000000;
+}
+/* end Notice of privacy */
+
+
+
+
+/* hide ugly titles */
+body > div.cbp-row.wh-page-title-bar {
+	display: none;
+}
+/* end hide ugly titles */
+
 
 
