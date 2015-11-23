@@ -91,6 +91,16 @@ div.wpb_text_column.wpb_content_element.page-heading > div > h2{
 	font-size:21px;
 	margin-bottom: -1em !important;
 }
+
+.body-copy a{
+	color: white;
+	font-family:Montserrat;
+	font-weight:100;
+	font-size:21px;
+}
+
+
+
 /* end main body text */
 
 
